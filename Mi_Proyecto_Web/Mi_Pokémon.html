@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pokédex</title>
+</head>
+<body>
+  <style>
+   body {
+    font-family: verdana;
+    margin: 0;
+   }
+   header {
+      background-color: black;
+      color: white;
+      padding: 0 10%;
+   }
+   header > h1 {
+    display: inline-block;
+    margin-left: 30px;
+   }
+   #logo{
+    width: 60px;
+   }
+   nav {
+    margin: 10px 10%;
+   }
+   nav > a {
+    padding: 0 10px;
+   }
+   #pokedex {
+   width: 750px;
+   margin: 50px auto;
+   }
+   #left {
+    width: 250px;
+    height: 300px;
+    float: left;
+    background-color: #0bf6fa;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+   }
+   #right{
+   width: 250px;
+   height: 250px;
+   margin-top: 50px;
+   background-color: #0bf6fa;
+   border-left-color: #0bf6fa;
+   border-left-style: solid;
+   border-left-width: 3px;
+   float: left;
+   border-bottom-right-radius: 30px;
+   }
+   .display {
+   border-color: #08f7a3;
+   border-style: solid;
+   border-radius: 15px;
+   border-width: 5px;
+   }
+   #left > .display {
+   width: 180px;
+   height: 150px;
+   margin-left: 35px;
+   margin-top: 40px;
+   background-color: rgb(255, 252, 252);
+   }
+   #left > .display > img {
+   margin-left: 15px;
+   height: 100%;
+   }
+   #dapd {
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    display: inline-block;
+   }
+   #dapd-top,#dapd-bottom {
+   width: 20px;
+   height: 20px;
+   margin-left: 20px;
+   background-color: #00ffc3;
+   }
+   #dapd-horizontal {
+    width: 60px;
+    height: 20px;
+    background-color: #0af1da;
+   }
+   #btn-circle{
+     width: 50px;
+     height: 50px;
+     margin-left: 95px;
+     border-style: solid;
+     border-color: #04ff9f;
+     border-radius: 25px;
+     background-color: #0bfae2;
+     display: inline-block;
+   }
+   :right > .display {
+   width: 180px;
+   height: 120px;
+   margin-left: 35px;
+   margin-top: 20px;
+   background-color: rgb(3, 255, 150);
+   font-size: 12px;
+   }
+   #pad {
+    width: 148px;
+    height: 65px;
+    margin-left: 60px;
+    margin-top: 15px;
+   }
+   #pad > .btn {
+   width: 25px;
+   height: 25px;
+   background-color: #05ffd5;
+   display: inline-block;
+   border-style: solid;
+   border-color: #00eca9;
+   border-width: 2px;
+   border-radius: 3px;
+   }
+   ul {
+   margin: 0;
+   padding: 0;
+   }
+   li {
+   list-style-type: none;
+   }
+   li > p {
+   margin: 0 5px;
+   }
+ </style>
+ <header>
+    <img id="logo" src="assets/brillo.jpg" alt="logo">
+    <h1>Mi poédex</h1>
+    </header>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Acerca</a>
+    </nav>
+    <hr>
+    <main>
+      <div id="Pokédex">
+        <div id="left">
+          <div class="display">
+            <img id="pkmn-img" src="assets/Eevee.jpg" alt="pokémon">
+          </div>
+          <div id="dpad">
+            <div id="dpad-top"></div>
+            <div id="dpad-horizontal"></div>
+            <div id="dpad-bottom"></div>
+          </div>
+          <div id="btn-circle"></div>
+        </div>
+        <div id="right">
+        <div class="display">
+          <ul>
+          <li>
+            <p><b>Nombre: </b>Eevee</p>
+          </li>
+          <li>
+            <p><b>Tipo: </b>Normal</p>
+          </li>
+          <li>
+            <p><b>Altura: </b>0,3m</p>
+          </li>
+          <li>
+            <p><b>Peso: </b>6,5kg</p>
+          </li>
+          <li>
+            <p><b>Descripción: </b>Se caracteriza por ser  el Pokémon con más evoluciones.</p>
+          </li>
+        </ul>
+        </div>
+        <div id="pad">
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+          <div class="btn"></div>
+       </div>
+        </div>
+      </div>   
+    </main>
+</body>
+</html>
