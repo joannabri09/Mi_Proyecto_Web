@@ -1,2 +1,2 @@
 # Mi_Proyecto_Web
-esta es mi carpeta de mis proyecto 
+Este repositorio pertenece al proyecto final del curso en fundamentos en programación web
